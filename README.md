@@ -57,7 +57,7 @@ COMP10619:Kafka pejman.tabassomi$ kafka-console-consumer --bootstrap-server loca
 ```
 
 
-**_Spin up the Datadog Agent (Provide your API key  to the  belown command_** 
+**_Spin up the Datadog Agent (Provide your API key  to the  below command)_** 
 
 
 ```
@@ -82,7 +82,7 @@ COMP10619:spring-kafka-ot33v3 pejman.tabassomi$ java -Ddd.service=springkafka -D
 COMP10619:Kafka pejman.tabassomi$ curl localhost:8080/test
 ```
 
-
+<br>
 
 | # | Changes
 |----------|---------
