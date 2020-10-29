@@ -82,14 +82,14 @@ COMP10619:spring-kafka-ot33v3 pejman.tabassomi$ java -Ddd.service=springkafka -D
 COMP10619:Kafka pejman.tabassomi$ curl localhost:8080/test
 ```
 
-<br>
 
- # | Changes
-----------|---------
- 1 | Automatic topic creation (NewTopic)
- 2 | Cleaning out code (tracing parts)
- 3 | Dual bean definitions (Jaeger & Datadog) and conditional dependency injection + @Primary  
- 4 | Updating opentracing kafka spring, kafka client, spring framework & dd-trace-ot
- 5 | Updating gradle version => 5.6.2
- 6 | Updating the project JDK (12)
- 7 | Using port 8080 instead 9093
+
+| # | Changes
+|----------|---------
+| 1 | Automatic topic creation (NewTopic)
+| 2 | Cleaning out code (tracing parts)
+| 3 | Dual bean definitions (Jaeger & Datadog) and conditional dependency injection + @Primary  
+| 4 | Updating opentracing kafka spring, kafka client, spring framework & dd-trace-ot
+| 5 | Updating gradle version => 5.6.2
+| 6 | Updating the project JDK (12)
+| 7 | Using port 8080 instead 9093
